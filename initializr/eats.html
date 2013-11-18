@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="css/override.css" type="text/css" rel="stylesheet" />
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Independent Cat</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="eats.html">Eats</a></li>
+                        <li><a href="sleeps.html">Sleeps</a></li>
+                        <li><a href="health.html">Health/Beauty</a></li>
+                        <li><a href="humans.html">Humans</a></li>
+                    </ul>
+                </div><!--/.navbar-collapse -->
+            </div>
+        </div>
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="eats.html">Eats</a></li>
+        </ol>
+        <div class="container">
+            <p>When choosing food, make sure that it at least meets your minimum nutritional needs. If the food you chose does not satisfy your palate, introduce new foods gradually. The most common varieties of food you might like to try include dry, wet, or raw.</p><br />
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+                <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/dry.png" alt="dry food">
+                  <div class="carousel-caption">
+                    Many people find dry kibble to be more convenient, and many vets feel that dry food is better for a cat’s teeth. However, dry food is not a substitute for dental care and pretty much all cats may need professional dental care at some point.
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/wet.png" alt="wet food">
+                  <div class="carousel-caption">
+                    Many cats seem to find wet food more palatable and this can be especially important if you have a cat with a finicky appetite. Canned food also has a much higher water content, and this can be of particular benefit for cats with kidney problems.
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/raw.png" alt="raw food and cat">
+                  <div class="carousel-caption">
+                    Feeding a raw diet closely mirrors what cats would naturally eat in the wild and provides a broad range of benefits that include healthy skin and coat, clean teeth, decreased litter box odor, natural weight control, and increased energy.
+                  </div>
+                </div>
+                
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+        </div>
+
+        <ul class="sources">Sources:
+            <li>http://pets.webmd.com/cats/guide/cat-food-101-what-you-need-to-know-about-feeding-your-cat</li>
+            <li>http://www.radfood.com/benefits_of_a_raw_diet</li>
+            <li>http://www.petfinder.com/cats/cat-nutrition/wet-or-dry-cat-food/</li>
+        </ul>
+
+        <ul class="pagination">
+            <li><a href="#">&laquo;</a></li>
+            <li><a href="index.html">1</a></li>
+            <li class="active"><a href="eats.html">2</a></li>
+            <li><a href="sleeps.html">3</a></li>
+            <li><a href="health.html">4</a></li>
+            <li><a href="humans.html">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+        </ul>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>

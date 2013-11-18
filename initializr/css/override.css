@@ -1,0 +1,52 @@
+img {
+	width: 100%;
+	height: auto;
+}
+.item img {
+	width: 400px;
+	height: 150px;
+}
+
+.glyphicon-th-list {
+	margin-top: -400px;
+}
+
+body {
+	background-image: url("../img/catbg.png");
+}
+
+.sources {
+	font-style: italic;
+	font-size: 10px;
+	list-style: none;
+	padding: 5px;
+}
+
+p {
+	text-align: center;
+	margin: 10px;
+}
+
+.outLink {
+	text-decoration: underline;
+	color: #5fbde0;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'century', serif;
+	color: #fe885a;
+}
+
+h3 {
+	font-family: 'century', serif;
+	color: #403f3f;
+}
+
+footer p {
+	color: #f8bd58;
+	font-family: 'century', serif;
+	font-size: 18pt;
+	background-color: rgba(64, 63, 63, .5);
+	padding: 15px;
+}
